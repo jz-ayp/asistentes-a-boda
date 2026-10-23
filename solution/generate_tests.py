@@ -15,9 +15,9 @@ output_folder = base_dir / "solution" / "output"
 output = {}
 tests = []
 
-for f in input_folder.glob("*"):
-    inp = f.read_text()
-    outp = (output_folder / f.name).read_text()
+for f in sorted(input_folder.glob("*"), key=lambda x: int(x.name[2:])):
+    inp = f.read_text().strip()
+    outp = (output_folder / f.name).read_text().strip()
     name = f"{f.name}"
     entry = {
         "name": name,
