@@ -18,6 +18,8 @@ Tu tarea es crear un reporte que contenga lo siguiente:
 
 Deberás regresar el total de personas para cada lista del reporte en el orden dado (colados, faltantes, confirmados, asistentes).
 
+Codifica tu solución en el archivo [`boda.py`](/boda.py).
+
 ## Restricciones
 - Las listas de confirmados y asistentes pueden estar 
 vacías.
