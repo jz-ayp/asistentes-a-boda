@@ -91,3 +91,5 @@ Entrada | Salida
 Entrada | Salida 
 --------|--------
 `["juan", "arturo", "maria", "rosa", "alberto", "rocio", "jose"]`<br>`["arturo", "maria", "rosa", "jose"]`<br>`["ramon", "roberto", "arturo", "rosa", "nicolas", "benito", "rebeca", "jacinto"]` | `6`<br>`5`<br>`2`<br>`2`
+
+***Fuente***: Problema propuesto por Alex Villa para el concurso de otoño 2024 en ITESO.
